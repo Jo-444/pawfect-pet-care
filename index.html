@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Author: Jordan Sindelar-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title> MeadowWags DayCare</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Momo+Signature&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <header class="header">MeadowWags DayCare</header>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MeadowWags DayCare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas-body">
+        <ul class="navbar navbar-dark bg-dark fixed-top">
+            <li>
+                <a href="about-us">About US</a>
+            </li>
+            <li>
+                <a href="services">Services</a>
+            </li>
+            <li>
+                <a href="Schedule-a-visit">Scheduling</a>
+            </li>
+        </ul>
+
+    </div>
+
+
+<main>
+
+    <section class="shadow p-3 mb-5 bg-body rounded">
+        <div class="col-lg-8 mx-auto">
+        <h1 class="h1">Welcome to MeadowWags DayCare</h1>
+        </div>
+        
+        <p>We know how important it is to keep your furry friends safe. That is why here at MeadowWags DayCare we are
+            fully staffed and equipped to keep your loved ones safe and happy.</p>
+            <a href="#services" class=" btn btn-success">Book A Stay</a>
+    </section>
+
+    <section class="services-section">
+        <h2 class="h2">Our Services</h2>
+        <div class="row g-4">
+             <div class="col-md-4">
+            <div class="dog-image">
+                <img src="img/swing.jpg" class="card-img-top" alt="swing" width="300" height="600">
+                </div>
+            <div class="card-body">
+                <div class="daycare">
+                <h5 class="card-title">Daycare</h5>
+                <p class="card-text">We give 24/7 care and can watch your pet for up to 14 days at a time.</p>
+                </div>
+
+</div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="row">
+        <div class="col-lg-8 mx-auto">
+         <div class="card">
+            <div class="card-header --bs-info-border-subtle">
+        <h2>What we offer here at MeadowWags DayCare</h2>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item active bg-success">Extended overnight stays for your pet (up to 14 days)</li>
+            <li class="list-group-item active  bg-success">We watch cats, dogs, birds and other small furry friends.</li>
+            <li class="list-group-item active bg-success">We have lots of outdoor space for your animals as well as an indoor
+                playing area for when the weather is not suitable.</li>
+            <li class="list-group-item active bg-success">We have on site  veterinarians for any mishaps while you are away</li>
+
+        </ul>
+        </div>
+        </div>
+    </section>
+
+    <section>
+    <h2 class="h2">Here Are Some Photos Of Our Animals</h2>
+
+<div class="container text-center">
+  <div class="row row-cols-2">
+    <div class="col">One of the birds we watch
+        <img src="img/bird.png" class="img-fluid rounded shadow-sm" alt="bird-photo" width="400" height="400">
+    </div>
+    <div class="col">Lazy cat
+        <img src="img/lazy-cat.jpg" class="img-fluid rounded shadow-sm" alt="cat" width="400" height="400">
+    </div>
+    <div class="col"> Our client playing outside
+        <img src="img/dog-house.png" class="img-fluid rounded shadow-sm" alt="dog-house" width="400" height="400"> 
+    </div>
+    <div class="col">They will always have someone to play with
+        <img src="img/friends.jpg" class="img-fluid rounded shadow-sm" alt="friends" width="400" height="400">
+    </div>
+  <div class="col"> We will take plenty of photos
+<img src="img/little-dog.jpg" class="img-fluid rounded shadow-sm" alt="photos" width="400" height="400">
+  </div>
+</div>
+</div>
+</section>
+
+</main>
+</body>
+
+</html>

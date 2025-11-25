@@ -1,0 +1,47 @@
+/*Author:Jordan Sindelar*/
+
+body {
+    font-family: "lexen deca", sans-serif; /* I did this to change the font of the body*/
+    background-color: beige; /* I wanted a biege background color*/
+
+}
+
+.header {
+    background-color: rgb(218, 186, 127);
+    color: white; /* I changed the text white*/
+    padding: 16px; /* i added some padding to give space from the other object*/
+    margin-bottom: 32px; /*i added this to give more space at the bottom*/
+    font-family: "EB Garamond", serif;
+
+}
+
+h1, h2 {
+    font-family: "lexen deca", sans-serif;
+}
+
+.h2 {
+    text-align: center; /* I wanted my text center*/
+    padding: 20px;
+}
+
+.dog-image{
+   display: block;
+}
+
+.services-section{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.services-section .row{
+    display: flex;
+    justify-content: center;
+}
+
+.daycare{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
